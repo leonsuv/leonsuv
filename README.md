@@ -45,19 +45,18 @@
       <sub>Fast native macOS window switcher with live thumbnails, fuzzy search, snapping &amp; pinning.</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/leonsuv/FastTree">
+      <a href="https://github.com/leonsuv/lokalwerk-web">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonsuv/FastTree/main/screenshots/fasttree-dark.png" />
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leonsuv/FastTree/main/screenshots/fasttree-light.png" />
-          <img src="https://raw.githubusercontent.com/leonsuv/FastTree/main/screenshots/fasttree-dark.png" alt="FastTree" width="100%" />
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonsuv/lokalwerk-web/main/docs/screenshots/startseite-register-dunkel.png" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leonsuv/lokalwerk-web/main/docs/screenshots/startseite-register-hell.png" />
+          <img src="https://raw.githubusercontent.com/leonsuv/lokalwerk-web/main/docs/screenshots/startseite-register-dunkel.png" alt="Lokalwerk" width="100%" />
         </picture>
       </a>
       <br />
-      <a href="https://github.com/leonsuv/FastTree"><strong>FastTree</strong></a>&nbsp;
-      <img src="https://img.shields.io/badge/Swift-161b22?style=flat-square&logo=swift&logoColor=f05138" height="18" align="absmiddle" alt="Swift" />
-      <img src="https://img.shields.io/badge/macOS-161b22?style=flat-square&logo=apple&logoColor=e6edf3" height="18" align="absmiddle" alt="macOS" />
+      <a href="https://github.com/leonsuv/lokalwerk-web"><strong>Lokalwerk</strong></a>&nbsp;
+      <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=3178c6" height="18" align="absmiddle" alt="TypeScript" />
       <br />
-      <sub>Fast native APFS disk space analyzer for macOS with an interactive treemap.</sub>
+      <sub>33 browser-only tools for PDFs, photos, spreadsheets &amp; SEPA — files never leave the device.</sub>
     </td>
   </tr>
   <tr>
@@ -86,18 +85,19 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/leonsuv/lokalwerk-web">
+      <a href="https://github.com/leonsuv/FastTree">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonsuv/lokalwerk-web/main/docs/screenshots/startseite-register-dunkel.png" />
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leonsuv/lokalwerk-web/main/docs/screenshots/startseite-register-hell.png" />
-          <img src="https://raw.githubusercontent.com/leonsuv/lokalwerk-web/main/docs/screenshots/startseite-register-dunkel.png" alt="Lokalwerk" width="100%" />
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonsuv/FastTree/main/screenshots/fasttree-dark.png" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leonsuv/FastTree/main/screenshots/fasttree-light.png" />
+          <img src="https://raw.githubusercontent.com/leonsuv/FastTree/main/screenshots/fasttree-dark.png" alt="FastTree" width="100%" />
         </picture>
       </a>
       <br />
-      <a href="https://github.com/leonsuv/lokalwerk-web"><strong>Lokalwerk</strong></a>&nbsp;
-      <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=3178c6" height="18" align="absmiddle" alt="TypeScript" />
+      <a href="https://github.com/leonsuv/FastTree"><strong>FastTree</strong></a>&nbsp;
+      <img src="https://img.shields.io/badge/Swift-161b22?style=flat-square&logo=swift&logoColor=f05138" height="18" align="absmiddle" alt="Swift" />
+      <img src="https://img.shields.io/badge/macOS-161b22?style=flat-square&logo=apple&logoColor=e6edf3" height="18" align="absmiddle" alt="macOS" />
       <br />
-      <sub>33 browser-only tools for PDFs, photos, spreadsheets &amp; SEPA — files never leave the device.</sub>
+      <sub>Fast native APFS disk space analyzer for macOS with an interactive treemap.</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/leonsuv/SiliconPulse">
