@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark-v3.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/header-light-v3.svg" />
-    <img alt="leonsuv — Native macOS, Rust, Automotive & Local-First" src="assets/header-dark-v3.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark-v4.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light-v4.svg" />
+    <img alt="leonsuv — Native macOS, Rust, Automotive & Local-First" src="assets/header-dark-v4.svg" width="100%" />
   </picture>
 </div>
 
