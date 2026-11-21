@@ -4,6 +4,10 @@
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="100%" stop-color="#f6f8fa"/>
     </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f3f6f9"/>
+    </linearGradient>
     <radialGradient id="glow" cx="0.18" cy="0.2" r="0.65">
       <stop offset="0%" stop-color="#0969da" stop-opacity="0.09"/>
       <stop offset="100%" stop-color="#0969da" stop-opacity="0"/>
@@ -24,29 +28,53 @@
 
   <!-- Left: Identity -->
   <text x="44" y="76" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1.2">leonsuv<tspan fill="#0969da">.</tspan></text>
-  <text x="44" y="109" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">Native macOS · Rust · Automotive &amp; Sim Racing · Local-First</text>
-  <text x="44" y="138" fill="#6e7781" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12">Leon · Germany</text>
+  <text x="44" y="109" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400">Native macOS · Rust · Automotive &amp; Sim Racing · Local-First</text>
+  <text x="44" y="137" fill="#6e7781" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12">Leon · Germany</text>
 
-  <!-- Right: Clean monochrome stack pills (2 rows x 3 cols) -->
-  <g font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" font-weight="500" text-anchor="middle">
+  <!-- Right: Language chips with glowing color dots (2 rows x 3 cols) -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500">
     <!-- Row 1 -->
-    <rect x="572" y="54" width="88" height="30" rx="8" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="616" y="73" fill="#1f2328">Rust</text>
+    <g transform="translate(518, 48)">
+      <rect width="106" height="34" rx="10" fill="url(#pill)" stroke="#d0d7de"/>
+      <circle cx="18" cy="17" r="7" fill="#c77b4e" fill-opacity="0.18"/>
+      <circle cx="18" cy="17" r="3.6" fill="#c77b4e"/>
+      <text x="31" y="21.5" fill="#1f2328">Rust</text>
+    </g>
 
-    <rect x="670" y="54" width="88" height="30" rx="8" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="714" y="73" fill="#1f2328">Swift</text>
+    <g transform="translate(634, 48)">
+      <rect width="106" height="34" rx="10" fill="url(#pill)" stroke="#d0d7de"/>
+      <circle cx="18" cy="17" r="7" fill="#f05138" fill-opacity="0.16"/>
+      <circle cx="18" cy="17" r="3.6" fill="#f05138"/>
+      <text x="31" y="21.5" fill="#1f2328">Swift</text>
+    </g>
 
-    <rect x="768" y="54" width="88" height="30" rx="8" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="812" y="73" fill="#1f2328">Kotlin</text>
+    <g transform="translate(750, 48)">
+      <rect width="106" height="34" rx="10" fill="url(#pill)" stroke="#d0d7de"/>
+      <circle cx="18" cy="17" r="7" fill="#7f52ff" fill-opacity="0.16"/>
+      <circle cx="18" cy="17" r="3.6" fill="#7f52ff"/>
+      <text x="31" y="21.5" fill="#1f2328">Kotlin</text>
+    </g>
 
     <!-- Row 2 -->
-    <rect x="572" y="94" width="88" height="30" rx="8" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="616" y="113" fill="#57606a">TypeScript</text>
+    <g transform="translate(518, 94)">
+      <rect width="106" height="34" rx="10" fill="url(#pill)" stroke="#d0d7de"/>
+      <circle cx="18" cy="17" r="7" fill="#3178c6" fill-opacity="0.16"/>
+      <circle cx="18" cy="17" r="3.6" fill="#3178c6"/>
+      <text x="31" y="21.5" fill="#1f2328">TypeScript</text>
+    </g>
 
-    <rect x="670" y="94" width="88" height="30" rx="8" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="714" y="113" fill="#57606a">Python</text>
+    <g transform="translate(634, 94)">
+      <rect width="106" height="34" rx="10" fill="url(#pill)" stroke="#d0d7de"/>
+      <circle cx="18" cy="17" r="7" fill="#d4a017" fill-opacity="0.18"/>
+      <circle cx="18" cy="17" r="3.6" fill="#d4a017"/>
+      <text x="31" y="21.5" fill="#1f2328">Python</text>
+    </g>
 
-    <rect x="768" y="94" width="88" height="30" rx="8" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="812" y="113" fill="#57606a">C / Go</text>
+    <g transform="translate(750, 94)">
+      <rect width="106" height="34" rx="10" fill="url(#pill)" stroke="#d0d7de"/>
+      <circle cx="18" cy="17" r="7" fill="#00add8" fill-opacity="0.16"/>
+      <circle cx="18" cy="17" r="3.6" fill="#00add8"/>
+      <text x="31" y="21.5" fill="#1f2328">C / Go</text>
+    </g>
   </g>
 </svg>
